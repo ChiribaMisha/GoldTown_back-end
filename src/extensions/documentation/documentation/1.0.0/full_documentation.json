@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-01-27T13:35:30.201Z"
+    "x-generation-date": "2022-01-29T12:52:47.385Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3178,6 +3178,37 @@
                                   }
                                 }
                               },
+                              "purchase_type": {
+                                "type": "string"
+                              },
+                              "product_type": {
+                                "type": "string"
+                              },
+                              "adress": {
+                                "type": "string"
+                              },
+                              "city": {
+                                "type": "string"
+                              },
+                              "district": {
+                                "type": "string"
+                              },
+                              "living_area": {
+                                "type": "number",
+                                "format": "float"
+                              },
+                              "kitchen_area": {
+                                "type": "number",
+                                "format": "float"
+                              },
+                              "payback": {
+                                "type": "number",
+                                "format": "float"
+                              },
+                              "annual_income": {
+                                "type": "number",
+                                "format": "float"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -4519,6 +4550,37 @@
                                 }
                               }
                             },
+                            "purchase_type": {
+                              "type": "string"
+                            },
+                            "product_type": {
+                              "type": "string"
+                            },
+                            "adress": {
+                              "type": "string"
+                            },
+                            "city": {
+                              "type": "string"
+                            },
+                            "district": {
+                              "type": "string"
+                            },
+                            "living_area": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "kitchen_area": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "payback": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "annual_income": {
+                              "type": "number",
+                              "format": "float"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5030,6 +5092,37 @@
                           ],
                           "example": "string or id"
                         }
+                      },
+                      "purchase_type": {
+                        "type": "string"
+                      },
+                      "product_type": {
+                        "type": "string"
+                      },
+                      "adress": {
+                        "type": "string"
+                      },
+                      "city": {
+                        "type": "string"
+                      },
+                      "district": {
+                        "type": "string"
+                      },
+                      "living_area": {
+                        "type": "number",
+                        "format": "float"
+                      },
+                      "kitchen_area": {
+                        "type": "number",
+                        "format": "float"
+                      },
+                      "payback": {
+                        "type": "number",
+                        "format": "float"
+                      },
+                      "annual_income": {
+                        "type": "number",
+                        "format": "float"
                       },
                       "createdAt": {
                         "type": "string",
@@ -5852,6 +5945,37 @@
                                   }
                                 }
                               }
+                            },
+                            "purchase_type": {
+                              "type": "string"
+                            },
+                            "product_type": {
+                              "type": "string"
+                            },
+                            "adress": {
+                              "type": "string"
+                            },
+                            "city": {
+                              "type": "string"
+                            },
+                            "district": {
+                              "type": "string"
+                            },
+                            "living_area": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "kitchen_area": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "payback": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "annual_income": {
+                              "type": "number",
+                              "format": "float"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7103,6 +7227,37 @@
                                 }
                               }
                             },
+                            "purchase_type": {
+                              "type": "string"
+                            },
+                            "product_type": {
+                              "type": "string"
+                            },
+                            "adress": {
+                              "type": "string"
+                            },
+                            "city": {
+                              "type": "string"
+                            },
+                            "district": {
+                              "type": "string"
+                            },
+                            "living_area": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "kitchen_area": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "payback": {
+                              "type": "number",
+                              "format": "float"
+                            },
+                            "annual_income": {
+                              "type": "number",
+                              "format": "float"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7625,6 +7780,37 @@
                           ],
                           "example": "string or id"
                         }
+                      },
+                      "purchase_type": {
+                        "type": "string"
+                      },
+                      "product_type": {
+                        "type": "string"
+                      },
+                      "adress": {
+                        "type": "string"
+                      },
+                      "city": {
+                        "type": "string"
+                      },
+                      "district": {
+                        "type": "string"
+                      },
+                      "living_area": {
+                        "type": "number",
+                        "format": "float"
+                      },
+                      "kitchen_area": {
+                        "type": "number",
+                        "format": "float"
+                      },
+                      "payback": {
+                        "type": "number",
+                        "format": "float"
+                      },
+                      "annual_income": {
+                        "type": "number",
+                        "format": "float"
                       },
                       "createdAt": {
                         "type": "string",

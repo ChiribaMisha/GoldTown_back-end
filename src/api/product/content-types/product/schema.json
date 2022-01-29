@@ -31,22 +31,51 @@
       "type": "integer"
     },
     "preview_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "purchase_type": {
+      "type": "string"
+    },
+    "product_type": {
+      "type": "string"
+    },
+    "adress": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "district": {
+      "type": "string"
+    },
+    "living_area": {
+      "type": "decimal"
+    },
+    "kitchen_area": {
+      "type": "decimal"
+    },
+    "payback": {
+      "type": "decimal"
+    },
+    "annual_income": {
+      "type": "decimal"
     }
   }
 }

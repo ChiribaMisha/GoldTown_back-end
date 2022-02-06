@@ -76,6 +76,9 @@
     },
     "annual_income": {
       "type": "decimal"
+    },
+    "parking_type": {
+      "type": "string"
     }
   }
 }

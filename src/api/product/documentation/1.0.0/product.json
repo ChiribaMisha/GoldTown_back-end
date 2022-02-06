@@ -812,6 +812,9 @@
                                 "type": "number",
                                 "format": "float"
                               },
+                              "parking_type": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -2184,6 +2187,9 @@
                               "type": "number",
                               "format": "float"
                             },
+                            "parking_type": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2726,6 +2732,9 @@
                       "annual_income": {
                         "type": "number",
                         "format": "float"
+                      },
+                      "parking_type": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -3579,6 +3588,9 @@
                             "annual_income": {
                               "type": "number",
                               "format": "float"
+                            },
+                            "parking_type": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -4861,6 +4873,9 @@
                               "type": "number",
                               "format": "float"
                             },
+                            "parking_type": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5414,6 +5429,9 @@
                       "annual_income": {
                         "type": "number",
                         "format": "float"
+                      },
+                      "parking_type": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

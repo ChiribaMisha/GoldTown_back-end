@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-01-29T12:52:47.385Z"
+    "x-generation-date": "2022-02-06T15:06:38.972Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3209,6 +3209,9 @@
                                 "type": "number",
                                 "format": "float"
                               },
+                              "parking_type": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -4581,6 +4584,9 @@
                               "type": "number",
                               "format": "float"
                             },
+                            "parking_type": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5123,6 +5129,9 @@
                       "annual_income": {
                         "type": "number",
                         "format": "float"
+                      },
+                      "parking_type": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -5976,6 +5985,9 @@
                             "annual_income": {
                               "type": "number",
                               "format": "float"
+                            },
+                            "parking_type": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7258,6 +7270,9 @@
                               "type": "number",
                               "format": "float"
                             },
+                            "parking_type": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -7811,6 +7826,9 @@
                       "annual_income": {
                         "type": "number",
                         "format": "float"
+                      },
+                      "parking_type": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

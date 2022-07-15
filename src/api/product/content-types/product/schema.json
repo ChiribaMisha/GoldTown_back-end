@@ -62,7 +62,8 @@
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "required": true
     },
     "preview_image": {
       "type": "media",
@@ -88,22 +89,6 @@
         "files",
         "videos"
       ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "purchase_type": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "product_type": {
-      "type": "string",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -182,6 +167,73 @@
       },
       "type": "uid",
       "targetField": "title"
+    },
+    "purchase_type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "purchase",
+        "commerce"
+      ],
+      "required": true
+    },
+    "kyiv_or_region": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "kyiv",
+        "region"
+      ],
+      "required": true
+    },
+    "Product_type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "house",
+        "storage",
+        "parking",
+        "stead",
+        "commercial_premises"
+      ],
+      "required": true
+    },
+    "Instalment": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "Residential_quarter": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "type_of_house": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }

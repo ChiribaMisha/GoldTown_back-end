@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-14T10:45:22.053Z"
+    "x-generation-date": "2022-07-15T09:37:59.847Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3178,12 +3178,6 @@
                                   }
                                 }
                               },
-                              "purchase_type": {
-                                "type": "string"
-                              },
-                              "product_type": {
-                                "type": "string"
-                              },
                               "adress": {
                                 "type": "string"
                               },
@@ -3213,6 +3207,39 @@
                                 "type": "string"
                               },
                               "Slug": {
+                                "type": "string"
+                              },
+                              "purchase_type": {
+                                "type": "string",
+                                "enum": [
+                                  "purchase",
+                                  "commerce"
+                                ]
+                              },
+                              "kyiv_or_region": {
+                                "type": "string",
+                                "enum": [
+                                  "kyiv",
+                                  "region"
+                                ]
+                              },
+                              "Product_type": {
+                                "type": "string",
+                                "enum": [
+                                  "house",
+                                  "storage",
+                                  "parking",
+                                  "stead",
+                                  "commercial_premises"
+                                ]
+                              },
+                              "Instalment": {
+                                "type": "string"
+                              },
+                              "Residential_quarter": {
+                                "type": "string"
+                              },
+                              "type_of_house": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -4288,12 +4315,6 @@
                                                 }
                                               }
                                             },
-                                            "purchase_type": {
-                                              "type": "string"
-                                            },
-                                            "product_type": {
-                                              "type": "string"
-                                            },
                                             "adress": {
                                               "type": "string"
                                             },
@@ -4323,6 +4344,39 @@
                                               "type": "string"
                                             },
                                             "Slug": {
+                                              "type": "string"
+                                            },
+                                            "purchase_type": {
+                                              "type": "string",
+                                              "enum": [
+                                                "purchase",
+                                                "commerce"
+                                              ]
+                                            },
+                                            "kyiv_or_region": {
+                                              "type": "string",
+                                              "enum": [
+                                                "kyiv",
+                                                "region"
+                                              ]
+                                            },
+                                            "Product_type": {
+                                              "type": "string",
+                                              "enum": [
+                                                "house",
+                                                "storage",
+                                                "parking",
+                                                "stead",
+                                                "commercial_premises"
+                                              ]
+                                            },
+                                            "Instalment": {
+                                              "type": "string"
+                                            },
+                                            "Residential_quarter": {
+                                              "type": "string"
+                                            },
+                                            "type_of_house": {
                                               "type": "string"
                                             },
                                             "createdAt": {
@@ -5448,12 +5502,6 @@
                                 }
                               }
                             },
-                            "purchase_type": {
-                              "type": "string"
-                            },
-                            "product_type": {
-                              "type": "string"
-                            },
                             "adress": {
                               "type": "string"
                             },
@@ -5483,6 +5531,39 @@
                               "type": "string"
                             },
                             "Slug": {
+                              "type": "string"
+                            },
+                            "purchase_type": {
+                              "type": "string",
+                              "enum": [
+                                "purchase",
+                                "commerce"
+                              ]
+                            },
+                            "kyiv_or_region": {
+                              "type": "string",
+                              "enum": [
+                                "kyiv",
+                                "region"
+                              ]
+                            },
+                            "Product_type": {
+                              "type": "string",
+                              "enum": [
+                                "house",
+                                "storage",
+                                "parking",
+                                "stead",
+                                "commercial_premises"
+                              ]
+                            },
+                            "Instalment": {
+                              "type": "string"
+                            },
+                            "Residential_quarter": {
+                              "type": "string"
+                            },
+                            "type_of_house": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -6558,12 +6639,6 @@
                                               }
                                             }
                                           },
-                                          "purchase_type": {
-                                            "type": "string"
-                                          },
-                                          "product_type": {
-                                            "type": "string"
-                                          },
                                           "adress": {
                                             "type": "string"
                                           },
@@ -6593,6 +6668,39 @@
                                             "type": "string"
                                           },
                                           "Slug": {
+                                            "type": "string"
+                                          },
+                                          "purchase_type": {
+                                            "type": "string",
+                                            "enum": [
+                                              "purchase",
+                                              "commerce"
+                                            ]
+                                          },
+                                          "kyiv_or_region": {
+                                            "type": "string",
+                                            "enum": [
+                                              "kyiv",
+                                              "region"
+                                            ]
+                                          },
+                                          "Product_type": {
+                                            "type": "string",
+                                            "enum": [
+                                              "house",
+                                              "storage",
+                                              "parking",
+                                              "stead",
+                                              "commercial_premises"
+                                            ]
+                                          },
+                                          "Instalment": {
+                                            "type": "string"
+                                          },
+                                          "Residential_quarter": {
+                                            "type": "string"
+                                          },
+                                          "type_of_house": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -6845,136 +6953,34 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "title": {
-                        "type": "string"
-                      },
-                      "sub_title": {
-                        "type": "string"
-                      },
-                      "number_of_rooms": {
-                        "type": "integer"
-                      },
-                      "floor": {
-                        "type": "string"
-                      },
-                      "apartment_area": {
-                        "type": "number",
-                        "format": "float"
-                      },
                       "price": {
                         "type": "integer"
                       },
-                      "preview_image": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "image": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
                       "purchase_type": {
-                        "type": "string"
-                      },
-                      "product_type": {
-                        "type": "string"
-                      },
-                      "adress": {
-                        "type": "string"
-                      },
-                      "city": {
-                        "type": "string"
-                      },
-                      "district": {
-                        "type": "string"
-                      },
-                      "living_area": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "kitchen_area": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "payback": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "annual_income": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "parking_type": {
-                        "type": "string"
-                      },
-                      "Slug": {
-                        "type": "string"
-                      },
-                      "createdAt": {
                         "type": "string",
-                        "format": "date-time"
+                        "enum": [
+                          "purchase",
+                          "commerce"
+                        ]
                       },
-                      "updatedAt": {
+                      "kyiv_or_region": {
                         "type": "string",
-                        "format": "date-time"
+                        "enum": [
+                          "kyiv",
+                          "region"
+                        ]
                       },
-                      "publishedAt": {
+                      "Product_type": {
                         "type": "string",
-                        "format": "date-time"
+                        "enum": [
+                          "house",
+                          "storage",
+                          "parking",
+                          "stead",
+                          "commercial_premises"
+                        ]
                       },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "localizations": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "locale": {
+                      "type_of_house": {
                         "type": "string"
                       }
                     }
@@ -7765,12 +7771,6 @@
                                 }
                               }
                             },
-                            "purchase_type": {
-                              "type": "string"
-                            },
-                            "product_type": {
-                              "type": "string"
-                            },
                             "adress": {
                               "type": "string"
                             },
@@ -7800,6 +7800,39 @@
                               "type": "string"
                             },
                             "Slug": {
+                              "type": "string"
+                            },
+                            "purchase_type": {
+                              "type": "string",
+                              "enum": [
+                                "purchase",
+                                "commerce"
+                              ]
+                            },
+                            "kyiv_or_region": {
+                              "type": "string",
+                              "enum": [
+                                "kyiv",
+                                "region"
+                              ]
+                            },
+                            "Product_type": {
+                              "type": "string",
+                              "enum": [
+                                "house",
+                                "storage",
+                                "parking",
+                                "stead",
+                                "commercial_premises"
+                              ]
+                            },
+                            "Instalment": {
+                              "type": "string"
+                            },
+                            "Residential_quarter": {
+                              "type": "string"
+                            },
+                            "type_of_house": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -8875,12 +8908,6 @@
                                               }
                                             }
                                           },
-                                          "purchase_type": {
-                                            "type": "string"
-                                          },
-                                          "product_type": {
-                                            "type": "string"
-                                          },
                                           "adress": {
                                             "type": "string"
                                           },
@@ -8910,6 +8937,39 @@
                                             "type": "string"
                                           },
                                           "Slug": {
+                                            "type": "string"
+                                          },
+                                          "purchase_type": {
+                                            "type": "string",
+                                            "enum": [
+                                              "purchase",
+                                              "commerce"
+                                            ]
+                                          },
+                                          "kyiv_or_region": {
+                                            "type": "string",
+                                            "enum": [
+                                              "kyiv",
+                                              "region"
+                                            ]
+                                          },
+                                          "Product_type": {
+                                            "type": "string",
+                                            "enum": [
+                                              "house",
+                                              "storage",
+                                              "parking",
+                                              "stead",
+                                              "commercial_premises"
+                                            ]
+                                          },
+                                          "Instalment": {
+                                            "type": "string"
+                                          },
+                                          "Residential_quarter": {
+                                            "type": "string"
+                                          },
+                                          "type_of_house": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -9944,12 +10004,6 @@
                                 }
                               }
                             },
-                            "purchase_type": {
-                              "type": "string"
-                            },
-                            "product_type": {
-                              "type": "string"
-                            },
                             "adress": {
                               "type": "string"
                             },
@@ -9979,6 +10033,39 @@
                               "type": "string"
                             },
                             "Slug": {
+                              "type": "string"
+                            },
+                            "purchase_type": {
+                              "type": "string",
+                              "enum": [
+                                "purchase",
+                                "commerce"
+                              ]
+                            },
+                            "kyiv_or_region": {
+                              "type": "string",
+                              "enum": [
+                                "kyiv",
+                                "region"
+                              ]
+                            },
+                            "Product_type": {
+                              "type": "string",
+                              "enum": [
+                                "house",
+                                "storage",
+                                "parking",
+                                "stead",
+                                "commercial_premises"
+                              ]
+                            },
+                            "Instalment": {
+                              "type": "string"
+                            },
+                            "Residential_quarter": {
+                              "type": "string"
+                            },
+                            "type_of_house": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -11054,12 +11141,6 @@
                                               }
                                             }
                                           },
-                                          "purchase_type": {
-                                            "type": "string"
-                                          },
-                                          "product_type": {
-                                            "type": "string"
-                                          },
                                           "adress": {
                                             "type": "string"
                                           },
@@ -11089,6 +11170,39 @@
                                             "type": "string"
                                           },
                                           "Slug": {
+                                            "type": "string"
+                                          },
+                                          "purchase_type": {
+                                            "type": "string",
+                                            "enum": [
+                                              "purchase",
+                                              "commerce"
+                                            ]
+                                          },
+                                          "kyiv_or_region": {
+                                            "type": "string",
+                                            "enum": [
+                                              "kyiv",
+                                              "region"
+                                            ]
+                                          },
+                                          "Product_type": {
+                                            "type": "string",
+                                            "enum": [
+                                              "house",
+                                              "storage",
+                                              "parking",
+                                              "stead",
+                                              "commercial_premises"
+                                            ]
+                                          },
+                                          "Instalment": {
+                                            "type": "string"
+                                          },
+                                          "Residential_quarter": {
+                                            "type": "string"
+                                          },
+                                          "type_of_house": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -11396,12 +11510,6 @@
                           "example": "string or id"
                         }
                       },
-                      "purchase_type": {
-                        "type": "string"
-                      },
-                      "product_type": {
-                        "type": "string"
-                      },
                       "adress": {
                         "type": "string"
                       },
@@ -11431,6 +11539,39 @@
                         "type": "string"
                       },
                       "Slug": {
+                        "type": "string"
+                      },
+                      "purchase_type": {
+                        "type": "string",
+                        "enum": [
+                          "purchase",
+                          "commerce"
+                        ]
+                      },
+                      "kyiv_or_region": {
+                        "type": "string",
+                        "enum": [
+                          "kyiv",
+                          "region"
+                        ]
+                      },
+                      "Product_type": {
+                        "type": "string",
+                        "enum": [
+                          "house",
+                          "storage",
+                          "parking",
+                          "stead",
+                          "commercial_premises"
+                        ]
+                      },
+                      "Instalment": {
+                        "type": "string"
+                      },
+                      "Residential_quarter": {
+                        "type": "string"
+                      },
+                      "type_of_house": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -12447,12 +12588,6 @@
                                 }
                               }
                             },
-                            "purchase_type": {
-                              "type": "string"
-                            },
-                            "product_type": {
-                              "type": "string"
-                            },
                             "adress": {
                               "type": "string"
                             },
@@ -12482,6 +12617,39 @@
                               "type": "string"
                             },
                             "Slug": {
+                              "type": "string"
+                            },
+                            "purchase_type": {
+                              "type": "string",
+                              "enum": [
+                                "purchase",
+                                "commerce"
+                              ]
+                            },
+                            "kyiv_or_region": {
+                              "type": "string",
+                              "enum": [
+                                "kyiv",
+                                "region"
+                              ]
+                            },
+                            "Product_type": {
+                              "type": "string",
+                              "enum": [
+                                "house",
+                                "storage",
+                                "parking",
+                                "stead",
+                                "commercial_premises"
+                              ]
+                            },
+                            "Instalment": {
+                              "type": "string"
+                            },
+                            "Residential_quarter": {
+                              "type": "string"
+                            },
+                            "type_of_house": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -13557,12 +13725,6 @@
                                               }
                                             }
                                           },
-                                          "purchase_type": {
-                                            "type": "string"
-                                          },
-                                          "product_type": {
-                                            "type": "string"
-                                          },
                                           "adress": {
                                             "type": "string"
                                           },
@@ -13592,6 +13754,39 @@
                                             "type": "string"
                                           },
                                           "Slug": {
+                                            "type": "string"
+                                          },
+                                          "purchase_type": {
+                                            "type": "string",
+                                            "enum": [
+                                              "purchase",
+                                              "commerce"
+                                            ]
+                                          },
+                                          "kyiv_or_region": {
+                                            "type": "string",
+                                            "enum": [
+                                              "kyiv",
+                                              "region"
+                                            ]
+                                          },
+                                          "Product_type": {
+                                            "type": "string",
+                                            "enum": [
+                                              "house",
+                                              "storage",
+                                              "parking",
+                                              "stead",
+                                              "commercial_premises"
+                                            ]
+                                          },
+                                          "Instalment": {
+                                            "type": "string"
+                                          },
+                                          "Residential_quarter": {
+                                            "type": "string"
+                                          },
+                                          "type_of_house": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -13855,136 +14050,34 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "title": {
-                        "type": "string"
-                      },
-                      "sub_title": {
-                        "type": "string"
-                      },
-                      "number_of_rooms": {
-                        "type": "integer"
-                      },
-                      "floor": {
-                        "type": "string"
-                      },
-                      "apartment_area": {
-                        "type": "number",
-                        "format": "float"
-                      },
                       "price": {
                         "type": "integer"
                       },
-                      "preview_image": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "image": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
                       "purchase_type": {
-                        "type": "string"
-                      },
-                      "product_type": {
-                        "type": "string"
-                      },
-                      "adress": {
-                        "type": "string"
-                      },
-                      "city": {
-                        "type": "string"
-                      },
-                      "district": {
-                        "type": "string"
-                      },
-                      "living_area": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "kitchen_area": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "payback": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "annual_income": {
-                        "type": "number",
-                        "format": "float"
-                      },
-                      "parking_type": {
-                        "type": "string"
-                      },
-                      "Slug": {
-                        "type": "string"
-                      },
-                      "createdAt": {
                         "type": "string",
-                        "format": "date-time"
+                        "enum": [
+                          "purchase",
+                          "commerce"
+                        ]
                       },
-                      "updatedAt": {
+                      "kyiv_or_region": {
                         "type": "string",
-                        "format": "date-time"
+                        "enum": [
+                          "kyiv",
+                          "region"
+                        ]
                       },
-                      "publishedAt": {
+                      "Product_type": {
                         "type": "string",
-                        "format": "date-time"
+                        "enum": [
+                          "house",
+                          "storage",
+                          "parking",
+                          "stead",
+                          "commercial_premises"
+                        ]
                       },
-                      "createdBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "updatedBy": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
-                      },
-                      "localizations": {
-                        "type": "array",
-                        "items": {
-                          "oneOf": [
-                            {
-                              "type": "integer"
-                            },
-                            {
-                              "type": "string"
-                            }
-                          ],
-                          "example": "string or id"
-                        }
-                      },
-                      "locale": {
+                      "type_of_house": {
                         "type": "string"
                       }
                     }

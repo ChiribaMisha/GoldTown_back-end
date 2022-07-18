@@ -836,13 +836,16 @@
                                   "commercial_premises"
                                 ]
                               },
-                              "Instalment": {
-                                "type": "string"
-                              },
                               "Residential_quarter": {
                                 "type": "string"
                               },
                               "type_of_house": {
+                                "type": "string"
+                              },
+                              "Instalment": {
+                                "type": "integer"
+                              },
+                              "alt_slug": {
                                 "type": "string"
                               },
                               "createdAt": {
@@ -1973,13 +1976,16 @@
                                                 "commercial_premises"
                                               ]
                                             },
-                                            "Instalment": {
-                                              "type": "string"
-                                            },
                                             "Residential_quarter": {
                                               "type": "string"
                                             },
                                             "type_of_house": {
+                                              "type": "string"
+                                            },
+                                            "Instalment": {
+                                              "type": "integer"
+                                            },
+                                            "alt_slug": {
                                               "type": "string"
                                             },
                                             "createdAt": {
@@ -3160,13 +3166,16 @@
                                 "commercial_premises"
                               ]
                             },
-                            "Instalment": {
-                              "type": "string"
-                            },
                             "Residential_quarter": {
                               "type": "string"
                             },
                             "type_of_house": {
+                              "type": "string"
+                            },
+                            "Instalment": {
+                              "type": "integer"
+                            },
+                            "alt_slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -4297,13 +4306,16 @@
                                               "commercial_premises"
                                             ]
                                           },
-                                          "Instalment": {
-                                            "type": "string"
-                                          },
                                           "Residential_quarter": {
                                             "type": "string"
                                           },
                                           "type_of_house": {
+                                            "type": "string"
+                                          },
+                                          "Instalment": {
+                                            "type": "integer"
+                                          },
+                                          "alt_slug": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -4584,6 +4596,9 @@
                         ]
                       },
                       "type_of_house": {
+                        "type": "string"
+                      },
+                      "alt_slug": {
                         "type": "string"
                       }
                     }
@@ -5429,13 +5444,16 @@
                                 "commercial_premises"
                               ]
                             },
-                            "Instalment": {
-                              "type": "string"
-                            },
                             "Residential_quarter": {
                               "type": "string"
                             },
                             "type_of_house": {
+                              "type": "string"
+                            },
+                            "Instalment": {
+                              "type": "integer"
+                            },
+                            "alt_slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -6566,13 +6584,16 @@
                                               "commercial_premises"
                                             ]
                                           },
-                                          "Instalment": {
-                                            "type": "string"
-                                          },
                                           "Residential_quarter": {
                                             "type": "string"
                                           },
                                           "type_of_house": {
+                                            "type": "string"
+                                          },
+                                          "Instalment": {
+                                            "type": "integer"
+                                          },
+                                          "alt_slug": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -7662,13 +7683,16 @@
                                 "commercial_premises"
                               ]
                             },
-                            "Instalment": {
-                              "type": "string"
-                            },
                             "Residential_quarter": {
                               "type": "string"
                             },
                             "type_of_house": {
+                              "type": "string"
+                            },
+                            "Instalment": {
+                              "type": "integer"
+                            },
+                            "alt_slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -8799,13 +8823,16 @@
                                               "commercial_premises"
                                             ]
                                           },
-                                          "Instalment": {
-                                            "type": "string"
-                                          },
                                           "Residential_quarter": {
                                             "type": "string"
                                           },
                                           "type_of_house": {
+                                            "type": "string"
+                                          },
+                                          "Instalment": {
+                                            "type": "integer"
+                                          },
+                                          "alt_slug": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -9168,13 +9195,16 @@
                           "commercial_premises"
                         ]
                       },
-                      "Instalment": {
-                        "type": "string"
-                      },
                       "Residential_quarter": {
                         "type": "string"
                       },
                       "type_of_house": {
+                        "type": "string"
+                      },
+                      "Instalment": {
+                        "type": "integer"
+                      },
+                      "alt_slug": {
                         "type": "string"
                       },
                       "createdAt": {
@@ -10246,13 +10276,16 @@
                                 "commercial_premises"
                               ]
                             },
-                            "Instalment": {
-                              "type": "string"
-                            },
                             "Residential_quarter": {
                               "type": "string"
                             },
                             "type_of_house": {
+                              "type": "string"
+                            },
+                            "Instalment": {
+                              "type": "integer"
+                            },
+                            "alt_slug": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -11383,13 +11416,16 @@
                                               "commercial_premises"
                                             ]
                                           },
-                                          "Instalment": {
-                                            "type": "string"
-                                          },
                                           "Residential_quarter": {
                                             "type": "string"
                                           },
                                           "type_of_house": {
+                                            "type": "string"
+                                          },
+                                          "Instalment": {
+                                            "type": "integer"
+                                          },
+                                          "alt_slug": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -11681,6 +11717,9 @@
                         ]
                       },
                       "type_of_house": {
+                        "type": "string"
+                      },
+                      "alt_slug": {
                         "type": "string"
                       }
                     }

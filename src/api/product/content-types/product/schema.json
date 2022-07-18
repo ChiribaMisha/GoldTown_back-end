@@ -210,14 +210,6 @@
       ],
       "required": true
     },
-    "Instalment": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "Residential_quarter": {
       "pluginOptions": {
         "i18n": {
@@ -233,6 +225,24 @@
         }
       },
       "type": "string",
+      "required": true
+    },
+    "Instalment": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
+    },
+    "alt_slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "unique": false,
       "required": true
     }
   }

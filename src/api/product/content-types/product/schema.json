@@ -225,7 +225,7 @@
         }
       },
       "type": "string",
-      "required": true
+      "required": false
     },
     "Instalment": {
       "pluginOptions": {

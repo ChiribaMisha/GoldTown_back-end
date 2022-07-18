@@ -4595,9 +4595,6 @@
                           "commercial_premises"
                         ]
                       },
-                      "type_of_house": {
-                        "type": "string"
-                      },
                       "alt_slug": {
                         "type": "string"
                       }
@@ -11715,9 +11712,6 @@
                           "stead",
                           "commercial_premises"
                         ]
-                      },
-                      "type_of_house": {
-                        "type": "string"
                       },
                       "alt_slug": {
                         "type": "string"

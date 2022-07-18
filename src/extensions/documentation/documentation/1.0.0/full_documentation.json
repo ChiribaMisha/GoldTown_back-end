@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-07-18T10:31:32.823Z"
+    "x-generation-date": "2022-07-18T14:50:04.059Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -6991,9 +6991,6 @@
                           "stead",
                           "commercial_premises"
                         ]
-                      },
-                      "type_of_house": {
-                        "type": "string"
                       },
                       "alt_slug": {
                         "type": "string"
@@ -14112,9 +14109,6 @@
                           "stead",
                           "commercial_premises"
                         ]
-                      },
-                      "type_of_house": {
-                        "type": "string"
                       },
                       "alt_slug": {
                         "type": "string"
